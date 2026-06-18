@@ -1,16 +1,18 @@
-﻿# website-upload-854-180
+# 静态电影网站生成说明
 
-Batch 180 of 50. Contains extracted static website versions. The original zip files are not committed.
+- 解析影片条数：2000
+- 独立详情页：2000
+- 分类页数量：8
+- 封面图片按影片顺序循环引用网站根目录 1.jpg 到 150.jpg。
+- 每个 HTML 页面均已写入百度统计脚本，且脚本不会显示为页面文字。
+- 播放器使用上传素材中的 HLS 播放库，影片页点击播放器后初始化播放源。
 
-| Directory | Source zip |
-| --- | --- |
-| version-1791 | project-bolt-sb1-hi6uut68-chatgpt (1)__2.zip |
-| version-1792 | project-bolt-sb1-hj7cg2ew - 副本-chatgpt (1).zip |
-| version-1793 | project-bolt-sb1-hj7cg2ew - 副本-chatgpt (1)__1.zip |
-| version-1794 | project-bolt-sb1-hj7cg2ew-chatgpt (1).zip |
-| version-1795 | project-bolt-sb1-hj7cg2ew-chatgpt (1)__1.zip |
-| version-1796 | project-bolt-sb1-hj7cg2ew-chatgpt (1)__2.zip |
-| version-1797 | project-bolt-sb1-hjbpkgja - 副本-chatgpt (1).zip |
-| version-1798 | project-bolt-sb1-hjbpkgja - 副本-chatgpt (1)__1.zip |
-| version-1799 | project-bolt-sb1-hjbpkgja-chatgpt (1).zip |
-| version-1800 | project-bolt-sb1-hjbpkgja-chatgpt (1)__1.zip |
+## 分类分布
+- 欧美精选片单：250 部
+- 剧情传记：250 部
+- 悬疑惊悚：250 部
+- 动作冒险：250 部
+- 爱情喜剧：250 部
+- 科幻奇幻：250 部
+- 剧集精选：250 部
+- 环球影像：250 部
